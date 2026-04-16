@@ -107,6 +107,6 @@ body {
     }
 
     .card {
-        width: 100% /* Makes each card take up the full width of the container on small screens */
+        width: 100%; /* Makes each card take up the full width of the container on small screens */
     }
 }
