@@ -34,15 +34,15 @@ body {
 /* Styling for the card title (h2) */
 .card h2 {
     color: #333; /* Sets the text color to dark gray */
-    font-size: 24px; /* Sets the font size of the title */
-    margin-bottom: 10px; /* Adds space below the title */
+    font-size: 1.5rem; /* Sets the font size of the title */
+    margin-bottom: 0.625rem; /* Adds space below the title */
 }
 
 /* Styling for the paragraph text inside the card */
 .card p {
     color: #666; /* Sets the text color to medium gray */
     font-size: 1rem; /* Sets the font size of the paragraph text */
-    margin-bottom: 20px; /* Adds space below the paragraph text */
+    margin-bottom: 1.25rem; /* Adds space below the paragraph text */
 }
 
 /* Styling for the image inside each card */
@@ -57,11 +57,11 @@ body {
 .learn-more-btn {
     background-color: #3498db; /* Sets the button's background color to a blue */
     border: none; /* Removes any border from the button */
-    border-radius: 4px; /* Rounds the corners of the button */
+    border-radius: 0.25rem; /* Rounds the corners of the button */
     color: white; /* Sets the text color of the button to white */
     cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
     font-size: 1rem; /* Sets the font size of the button text */
-    padding: 10px 20px; /* Adds padding inside the button (top/bottom: 10px, left/right: 20px) */
+    padding: 0.625rem 1.25rem; /* Adds padding inside the button (top/bottom: 10px, left/right: 20px) */
     text-decoration: none; /* Removes the underline from the link inside the button */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background color and size on hover */
 }
