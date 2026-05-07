@@ -1,0 +1,10 @@
+/* Modern CSS Feature #1: CSS variables */
+:root {
+  --primary-color: #1f3a5f;
+}
+
+/* Modern CSS Feature #2: clamp() */
+h1 {
+  color: var(--primary-color);
+  font-size: clamp(2rem, 5vw, 4rem);
+}
