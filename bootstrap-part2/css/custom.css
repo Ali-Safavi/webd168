@@ -42,3 +42,20 @@ header.bg-secondary {
     padding-bottom: 1rem;
   }
 }
+.fade-img {
+  opacity: 0.6;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform-origin: center;
+}
+
+.fade-img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Accessibility: reduce motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none;
+  }
+}
