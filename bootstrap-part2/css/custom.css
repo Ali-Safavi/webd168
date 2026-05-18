@@ -27,7 +27,7 @@ caption {
 /* Optional: Customize Header Colors */
 header.bg-secondary {
   /* Students can change this color */
-  background-color: #6c757d !important;
+  background-color: 191D9A !important;
 }
 
 /* Optional: Star Rating Hover Effect */
@@ -43,7 +43,7 @@ header.bg-secondary {
   }
 }
 .fade-img {
-  opacity: 0.6;
+  opacity: 1.0;
   transition: opacity 0.3s ease, transform 0.3s ease;
   transform-origin: center;
 }
