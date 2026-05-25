@@ -108,14 +108,18 @@ textarea:focus {
 /* Hover effect for project icons */
 .project-thumb {
     width: 100%;
-    height: 250px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
+    display: block;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
 }
 
 .project-thumb:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.project-preview {
+    display: block;
 }
